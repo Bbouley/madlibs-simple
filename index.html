@@ -17,70 +17,86 @@
   <div class="full-width-image">
   </div>
   <!--end .full-width-image-->
-  
-  <main>
-    <div class="wrapper"> 
-      
-      <!-- --------  DISPLAY Input ---------    --> 
-  
-  
-<div class="prompt"> 
-<h3>Type a Noun &#8595;</h3>
-<input type="text" name="noun"><br>
-<h3>Type an Adjective &#8595;</h3>
-<input type="text" name="noun"><br>
-<button class="push_button red">Add to Story</button>
- </div>
-  
-  
 
-   
-   
-   
-   
-   
-   
-      
-      <!-- --------  DISPLAY Story --------- 
-      
-      
+  <main>
+    <div class="wrapper">
+
+      <!-- --------  DISPLAY Input ---------    -->
+
+
+<div class="prompt">
+<h3>Type a Noun &#8595;</h3>
+<input type="text" name="noun" id="noun"><br>
+<h3>Type an Adjective &#8595;</h3>
+<input type="text" name="adjective" id="adjective"><br>
+<button class="push_button red" id="add_madlib">Add to Story</button>
+<button class="push_button red" id="add_my_code">Add from Code</button>
+ </div>
+
+ <div class="show_variables">
+  <h3>var noun = <span id="noun_var"></span></h3>
+  <h3>var adjective = <span id="adj_var"></span></h3>
+ </div>
+
+
+
+      <div class="madlibs">
+      <h2>Best Deal Ever!</h2>
+      <p>Galvanize is happy to sell you your very own
+      <span id="noun_lib" class="lib">vacuum</span>.
+      You too, can spend the day
+      <span id="adj_lib" class="lib">vacuuming</span> for as long as you want.
+
+
+
+
+
+
+
+
+
+
+      <!-- --------  DISPLAY Story ---------
+
+
       <div class="madlibs">
         <h2>Best Deal Ever!</h2>
-        <p>Galvanize is happy to sell you your very own 
-        <span id="noun" class="lib">vacuum</span> 
+        <p>Galvanize is happy to sell you your very own
+        <span id="noun" class="lib">vacuum</span>
         for the low price of $
         <span id="number" class="lib">567</span>
-        . Not only is it 
+        . Not only is it
         <span id="adj" class="lib">hot</span>
         , but turn it inside out and you'll find a photograph of your instructor
          <span id="instructor" class="lib">Matt</span>
          's
-       face! This makes the perfect 
+       face! This makes the perfect
          <span id="holiday" class="lib">4th of July</span>
-          gift for that special someone in your life. Featured in 
+          gift for that special someone in your life. Featured in
         <span id="band" class="lib">Air Supply</span>
-        's new music video for their cover of 
+        's new music video for their cover of
         <span id="song" class="lib">Hello</span>
         , we expect to sell out soon, so whether you want it delivered by
         <span id="transport" class="lib">Drone</span>
-        or to 
+        or to
         <span id="location" class="lib">Bali</span>
-        , don't wait to order. But wait, order today and we'll include a free 
+        , don't wait to order. But wait, order today and we'll include a free
         <span id="noun" class="lib">toaster</span>
         signed by
         <span id="hero" class="lib">Payton Manning</span>!
         </p>
         <button class="push_button red">Buy Now / Reset</button>
       </div>
-      
-      --> 
-      
+
+      -->
+
     </div>
-    <!--end main wrapper--> 
+    <!--end main wrapper-->
   </main>
   <footer>
     <div class="wrapper"><!--Footer Content Here--></div>
   </footer>
+  <script type="text/javascript" src="main.js"></script>
 </div>
 </body>
 </html>
